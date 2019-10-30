@@ -3,20 +3,23 @@
   <head>
     <title>The Gallery of Horns</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/base.css">
     <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
   </head>
+
   <body>
     <header>
       <h1>The Gallery of Horns</h1>
       <select  id="form" name="images">
-        <option value="default">Filter by Keyword</option>
+        <optgroup id="keyword-option" label="Filter by Keyword"></optgroup>
+        <optgroup label="Filter by Title" id="title-option"></optgroup>
+        <optgroup label="Filer by Horns" id="horn-option"></optgroup>
       </select>
     </header>
 
     <main>
       <template id="photo-template">
-          <section class='photo-grid-item'>
+          <section>
               <h2></h2>
               <img src="" alt="">
               <p></p>
