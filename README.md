@@ -1,7 +1,7 @@
 # lab-2 Completed by myself (Mason) and by Trevor 
-Number and name of feature: ______Enough__________________________
+Number and name of feature: ______Enough___________
 
-Estimate of time needed to complete: __~~~___
+Estimate of time needed to complete: _____
 
 Start time: __4:30 PM on 10/29/2019 ___
 
